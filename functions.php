@@ -9,7 +9,7 @@ function load_css(){
   wp_enqueue_style('bootstrap');
 
   //your own css must be last
-  wp_register_style('main', get_template_directory_uri() . '/css/main.css', array(), false, 'all');
+  wp_register_style('main', get_template_directory_uri().'/css/main.css', array(), false, 'all');
   wp_enqueue_style('main');
 
 }
@@ -136,8 +136,8 @@ register_default_headers( array(
 
 //Header Image
 $customHeaderDefaults = array(
-    'width' => 400,
-    'height' => 533,
+    'width' => 1600,
+    'height' => 400,
     'default-image' => get_template_directory_uri() . '/images/background-image.jpeg'
 );
 add_theme_support('custom-header', $customHeaderDefaults);

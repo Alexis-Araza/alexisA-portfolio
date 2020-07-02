@@ -1,10 +1,7 @@
 // Override default variables before the import
-// $body-bg: #000;
-$primary : #024873; // primary
-$secondary : #0396A6; //secondary
-$info: #F25E5E; //info
-// $white : #04926D; // body background
-// $green: #C1C44D;
+$primary: #372F3D; // primary
+$secondary: #3B3647; //secondary
+$info: #272730; //info
 
 // Option A
 
@@ -31,7 +28,7 @@ $info: #F25E5E; //info
 
 .headerImage{
     width: 100vw;
-    height: 50vh;
+    height: 5vh;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -75,9 +72,10 @@ header{
   color:white;
 }
 
-/* .myMargin{
-  margin-top: -200px;
-} */
+.projectStyle{
+  background: none;
+  margin: 10px;
+}
 
 .jumbotron{
   height: 150px;
@@ -90,36 +88,6 @@ header{
   width:100% !important;
 }
 
-.billingFields .form-row{
-    width: 100% !important;
-}
-
-.billingFields .form-row .woocommerce-input-wrapper{
-    width: 100% !important;
-}
-
-.billingFields .form-row .woocommerce-input-wrapper input,
-.billingFields .form-row .woocommerce-input-wrapper select{
-    height: calc(1.5em + .75rem + 2px) !important;
-    padding: .375rem .75rem !important;
-    font-size: 1rem !important;
-    font-weight: 400 !important;
-    line-height: 1.5 !important;
-}
-
-.billingFields .form-row .woocommerce-input-wrapper textarea{
-    min-height: 200px !important;
-    max-height: 800px !important;
-    padding: .375rem .75rem !important;
-    font-size: 1rem !important;
-    font-weight: 400 !important;
-    line-height: 1.5 !important;
-}
-
 .footerText{
   margin-left:100px;
-}
-.facebook{
-  width:80px;
-  height:auto;
 }
