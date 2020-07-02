@@ -16,6 +16,7 @@
     <div class="col text-dark projectStyle">
       <?php get_template_part('includes/section','blogcontent'); ?>
          <?php wp_link_pages(); ?>
+
     </div>
 </div>
 </section>

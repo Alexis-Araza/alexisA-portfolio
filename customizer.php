@@ -13,7 +13,7 @@ function mytheme_customize_register( $wp_customize ) {
 
 
    $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'garden_backgroundColourControl', array(
-   	'label'      => __( 'Background Colour', 'gardenTheme' ),
+   	'label'      => __( 'Background Colour', 'portfolioTheme' ),
     'description' => 'Change the background Colour',
    	'section'    => 'colors',
    	'settings'   => 'garden_backgroundColour',
@@ -27,7 +27,7 @@ function mytheme_customize_register( $wp_customize ) {
 
 
     $wp_customize->add_control( new WP_Customize_Color_Control( $wp_customize, 'garden_headerFooterColourControl', array(
-    	'label'      => __( 'Header and Footer Colour', 'gardenTheme' ),
+    	'label'      => __( 'Header and Footer Colour', 'portfolioTheme' ),
      'description' => 'Change the Header and Footer Colour',
     	'section'    => 'colors',
     	'settings'   => 'garden_headerFooterColour',
@@ -36,7 +36,7 @@ function mytheme_customize_register( $wp_customize ) {
 
    // Footer Message
    $wp_customize->add_section( 'garden_footerSection' , array(
-       'title'      => __( 'Footer Text', 'gardenTheme' ),
+       'title'      => __( 'Footer Text', 'portfolioTheme' ),
        'priority'   => 30,
    ));
 
@@ -46,24 +46,24 @@ function mytheme_customize_register( $wp_customize ) {
    ) );
 
    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'garden_footerMessageControl', array(
-     'label'      => __( 'Footer Text', 'gardenTheme' ),
+     'label'      => __( 'Footer Text', 'portfolioTheme' ),
      'section'    => 'garden_footerSection',
      'settings'   => 'garden_footerMessage',
    ) ) );
 
    // Site Title Text
    $wp_customize->add_section( 'garden_siteTitleTextSection' , array(
-       'title'      => __( 'Site Title Text', 'gardenTheme' ),
+       'title'      => __( 'Site Title Text', 'portfolioTheme' ),
        'priority'   => 30,
    ));
 
    $wp_customize->add_setting( 'garden_siteTitleText' , array(
-       'default'   => 'Plant Wellington',
+       'default'   => 'Portfolio',
        'transport' => 'refresh',
    ) );
 
    $wp_customize->add_control( new WP_Customize_Control( $wp_customize, 'garden_siteTitleTextControl', array(
-     'label'      => __( 'Site Title Text', 'gardenTheme' ),
+     'label'      => __( 'Site Title Text', 'portfolioTheme' ),
      'section'    => 'garden_siteTitleTextSection',
      'settings'   => 'garden_siteTitleText',
    ) ) );
